@@ -1,0 +1,8 @@
+# docker-compose.yml
+services:
+  wesrosa:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
