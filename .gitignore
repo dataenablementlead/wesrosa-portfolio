@@ -4,3 +4,4 @@ src/**/old_*
 *.bak
 *.tmp
 /**backup_*
+/**backup.*
