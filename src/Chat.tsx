@@ -41,6 +41,8 @@ export default function Chat(): JSX.Element {
     return (
         <Layout>
             <main role="main">
+                <section style={sectionMain}>
+                <div style={container1280}>
                 {/* Spacer to offset sticky/fixed header */}
                 <div aria-hidden="true" style={{ height: spacerHeight }} />
                         <h1
