@@ -1,0 +1,6 @@
+# Personal/local backups
+src/**/backup_*
+src/**/old_*
+*.bak
+*.tmp
+
