@@ -43,12 +43,6 @@ export default function Chat(): JSX.Element {
             <main role="main">
                 {/* Spacer to offset sticky/fixed header */}
                 <div aria-hidden="true" style={{ height: spacerHeight }} />
-                <div style={{ ...container1280, ...sidePad }}>
-                    <section style={sectionMain} aria-label="Chat with Wes AI">
-                        <div style={{ opacity: 0.7, fontSize: 12 }}>
-                            Chat v=2025-10-19-01
-                        </div>
-
                         <h1
                             id="chat-h1"
                             data-reveal=""
