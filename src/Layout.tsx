@@ -81,7 +81,7 @@ export default function Layout(props: {
                         }}
                     >
                         <a
-                            href="/resume"
+                            href="/Wes_Rosa_Resume.pdf"
                             style={{
                                 textDecoration: "none",
                                 fontWeight: 700,
