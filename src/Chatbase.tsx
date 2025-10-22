@@ -1,7 +1,10 @@
 ﻿import * as React from "react"
 
 export default function Chatbase(): JSX.Element {
-    const CHATBASE_ID = "r-i9aUynIgpG_wBNOwEzu"
+    const CHATBASE_ID = import.meta.env.VITE_CHATBASE_ID
+    if (!CHATBASE_ID) {
+  console.warn("CHATBASE_ID missing; Chatbase widget disabled.")
+}
     const src = `https://www.chatbase.co/chatbot-iframe/${CHATBASE_ID}`
 
     // Let the parent control height; this wrapper just fills available space
@@ -39,3 +42,4 @@ export default function Chatbase(): JSX.Element {
     )
 }
 ;(Chatbase as any).displayName = "Chatbase"
+
