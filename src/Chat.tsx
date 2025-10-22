@@ -79,10 +79,12 @@ export default function Chat(): JSX.Element {
                         >
                             <Chatbase />
                         </div>
-                    </section>
-                </div>
+                     </div>
+                </section>
             </main>
         </Layout>
+
+
     )
 }
 ;(Chat as any).displayName = "Chat"
